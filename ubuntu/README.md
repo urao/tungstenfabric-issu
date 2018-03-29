@@ -4,7 +4,7 @@ Steps:
 
 1) Bring up new contrail controllers with R3.2.8 
 2) Make sure, the contrail services are all active
-3) Modify testbed.py to the one with information
+3) Modify existing testbed.py under /opt/contrail/utils/fabfile/testbeds/ which old controller information as given the sample [testbed.py](https://github.com/urao/tungstenfabric-issu/blob/master/ubuntu/testbed_issu.py) 
 4) Run: cd /opt/contrail/utils && fab issu_contrail_generate_conf
 5) Run: cd /opt/contrail/utils && fab issu_contrail_migrate_config
 6) Verify that the database on old controllers is copied over to new controllers
