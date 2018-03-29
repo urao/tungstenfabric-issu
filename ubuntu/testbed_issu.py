@@ -88,7 +88,7 @@ minimum_diskGB = 26
                                                                                                            
                                           
 env.ha = {                                                                                                            
-    'contrail_internal_vip'   : '141.102.0.200',       #Internal Virtual IP of the contrail HA Nodes.                                                                              
+    'contrail_internal_vip'   : '192.168.122.200',       #Internal Virtual IP of the contrail HA Nodes.                                                                              
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
 #To enable multi-tenancy feature
