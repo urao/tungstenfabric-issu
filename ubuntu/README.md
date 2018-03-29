@@ -15,3 +15,4 @@ Steps:
 
 Refer Links:
 1) [ISSU](http://www.opencontrail.org/opencontrail-in-service-software-upgrade/)
+2) [ISSU Guide](https://www.juniper.net/documentation/en_US/contrail3.2/topics/concept/ISSU-vnc.html)
